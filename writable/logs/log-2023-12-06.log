@@ -1,0 +1,90 @@
+CRITICAL - 2023-12-06 10:35:17 --> Undefined variable $headers
+in APPPATH\Views\create.php on line 123.
+ 1 APPPATH\Views\create.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $headers', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php', 123)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('create', [], true)
+ 5 APPPATH\Controllers\LoginController.php(37): view('create')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:36:37 --> Undefined variable $headers
+in APPPATH\Views\create.php on line 123.
+ 1 APPPATH\Views\create.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $headers', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php', 123)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('create', [], true)
+ 5 APPPATH\Controllers\LoginController.php(37): view('create')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:37:52 --> Undefined variable $headers
+in APPPATH\Views\create.php on line 123.
+ 1 APPPATH\Views\create.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $headers', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php', 123)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('create', [], true)
+ 5 APPPATH\Controllers\LoginController.php(37): view('create')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:38:37 --> Undefined variable $headers
+in APPPATH\Views\create.php on line 123.
+ 1 APPPATH\Views\create.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $headers', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php', 123)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('create', [], true)
+ 5 APPPATH\Controllers\LoginController.php(37): view('create')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 10:38:47 --> Undefined variable $headers
+in APPPATH\Views\create.php on line 123.
+ 1 APPPATH\Views\create.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $headers', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php', 123)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\create.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('create', [], true)
+ 5 APPPATH\Controllers\LoginController.php(37): view('create')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 11:18:40 --> Invalid file: "heder_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('heder_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('heder_view', [], true)
+ 3 APPPATH\Controllers\HeaderController.php(13): view('heder_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 11:19:46 --> Invalid file: "header_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('header_view', [], true)
+ 3 APPPATH\Controllers\HeaderController.php(13): view('header_view')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 11:25:57 --> Class "App\Controllers\LoginModel" not found
+in APPPATH\Controllers\HeaderController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\HeaderController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-06 11:27:06 --> Undefined array key "field1"
+in APPPATH\Views\header.php on line 12.
+ 1 APPPATH\Views\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "field1"', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\header.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('header', [], true)
+ 5 APPPATH\Controllers\HeaderController.php(18): view('header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

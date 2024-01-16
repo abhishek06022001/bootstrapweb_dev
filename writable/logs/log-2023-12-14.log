@@ -1,0 +1,74 @@
+CRITICAL - 2023-12-14 09:23:35 --> Undefined variable $is_login
+in APPPATH\Controllers\LoginController.php on line 23.
+ 1 APPPATH\Controllers\LoginController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $is_login', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\LoginController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 09:23:36 --> Undefined variable $is_login
+in APPPATH\Controllers\LoginController.php on line 23.
+ 1 APPPATH\Controllers\LoginController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $is_login', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\LoginController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 09:48:36 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Controllers\LoginController.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\LoginController.php', 114)
+ 2 APPPATH\Controllers\LoginController.php(114): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->logout()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 09:52:22 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Controllers\LoginController.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\LoginController.php', 114)
+ 2 APPPATH\Controllers\LoginController.php(114): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->logout()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 09:55:31 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Controllers\LoginController.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\LoginController.php', 114)
+ 2 APPPATH\Controllers\LoginController.php(114): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->logout()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:17:31 --> Call to a member function findAll() on string
+in APPPATH\Controllers\HeaderController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:19:49 --> Call to a member function findAll() on string
+in APPPATH\Controllers\HeaderController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:20:05 --> Call to a member function findAll() on string
+in APPPATH\Controllers\HeaderController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:20:06 --> Call to a member function findAll() on string
+in APPPATH\Controllers\HeaderController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:20:06 --> Call to a member function findAll() on string
+in APPPATH\Controllers\HeaderController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\HeaderController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeaderController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:35:26 --> Call to undefined method App\Controllers\LoginController::isUserLoggedIn()
+in APPPATH\Controllers\LoginController.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LoginController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
